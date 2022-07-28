@@ -476,6 +476,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .git-link {
+  font-weight: 700;
   display: block;
   color: #fff;
   background-color: purple;
@@ -488,7 +489,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .git-link:hover {
-
+  color: #121212;
 }
 
 /* ---------------- */
