@@ -7,19 +7,25 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "ReactJS",
-            description: "ReactJS",
+            title: "Profile Website",
+            description: "Simple web by ReactJS",
             imgUrl: projImg1,
+            tech: "Html, Css, Javascript, Reactjs",
+            gitLink: "https://github.com/emsiqh/learnReactJS.git",
         },
         {
             title: "Business Startup",
             description: "Design & Development",
             imgUrl: projImg2,
+            tech: "Html, Css, Javascript, Reactjs",
+            gitLink: "https://github.com/emsiqh/learnReactJS.git",
         },
         {
             title: "Business Startup",
             description: "Design & Development",
             imgUrl: projImg3,
+            tech: "Html, Css, Javascript, Reactjs",
+            gitLink: "https://github.com/emsiqh/learnReactJS.git",
         },
     ];
 
@@ -44,7 +50,8 @@ export const Projects = () => {
                                                 <img src={project.imgUrl} alt={project.title}></img>
                                                 <div className="prj-text">
                                                     <h3>{project.title}</h3>
-                                                    <span>{project.description}</span>
+                                                    <span>{project.description} <br/> Using {project.tech}</span>
+                                                    <a className="git-link" href={project.gitLink}>GitHub</a>
                                                 </div>
                                             </div>
                                         </Col>

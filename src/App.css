@@ -460,17 +460,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .prj-text h3 {
-  font-size: 30px;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 
 .prj-text span {
+  display: block;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  margin-bottom: 16px;
+}
+
+.git-link {
+  display: block;
+  color: #fff;
+  background-color: purple;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 8px;
+  width: 30%;
+  margin: auto;
+}
+
+.git-link:hover {
+
 }
 
 /* ---------------- */
