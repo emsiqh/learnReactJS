@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 import projImg1 from "../assets/img/prj1.png";
 import projImg2 from "../assets/img/prj2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/prj3.png";
 
 export const Projects = () => {
 
@@ -21,11 +21,11 @@ export const Projects = () => {
             gitLink: "https://github.com/emsiqh/BTL-LTW.git",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Website bán hàng",
+            description: "Sử dụng html, css, javascript cơ bản",
             imgUrl: projImg3,
-            tech: "Html, Css, Javascript, Reactjs",
-            gitLink: "https://github.com/emsiqh/learnReactJS.git",
+            tech: "Html, Css, Javascript",
+            gitLink: "https://github.com/emsiqh/iStore-Project",
         },
         {
             title: "Business Startup",
