@@ -492,6 +492,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #121212;
 }
 
+/* -------Footer ------- */
+.footer {
+  padding: 80px;
+  background-color: #151515;
+}
+
+.date-txb {
+  color: #B8B8B8;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
+.contact-box {
+  padding: 32px 16px;
+}
+
+.contact-box h3 {
+  margin-bottom: 32px;
+}
+
+.contact-item {
+  color: #ffffff;
+}
+
+.ct-icon {
+
+}
+
 /* ---------------- */
 .App {
   text-align: center;

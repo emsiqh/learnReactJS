@@ -66,7 +66,6 @@ export const Skills = () => {
                                             return (
                                                 <div className="skill-item" key={index}>
                                                     <CircularProgressbarWithChildren value={skill.value}>
-                                                        {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
                                                         <div style={{ fontSize: 1.4 + 'rem' }}>
                                                             <strong>{skill.value}%</strong>
                                                         </div>
